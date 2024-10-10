@@ -54,6 +54,11 @@ nav {
   transition: all 0.5s ease-in-out;
 }
 
+nav a {
+  text-decoration: none;
+  color: #333333;
+}
+
 nav ul {
   list-style-type: none;
   padding: 1rem;
@@ -75,7 +80,7 @@ nav li:hover {
 }
 
 nav li::before {
-  content: "•";
+  content: "\2618";
   color: #499b00;
   position: absolute;
   left: 0;
@@ -192,7 +197,4 @@ footer {
   main {
     padding: 2rem;
   }
-}
-
-@media (min-width: 1024px) {
 }
